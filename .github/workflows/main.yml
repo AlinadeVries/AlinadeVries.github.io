@@ -8,6 +8,11 @@ jobs:
     - uses: actions/checkout@v2
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
+      env:
+        VITE_IMPRINT_NAME: ${{ secrets.VITE_IMPRINT_NAME }}
+        VITE_IMPRINT_STREET: ${{ secrets.VITE_IMPRINT_STREET }}
+        VITE_IMPRINT_CITY: ${{ secrets.VITE_IMPRINT_CITY }}
+        VITE_IMPRINT_EMAIL: ${{ secrets.VITE_IMPRINT_EMAIL }}
       with:
         username: 'AlinadeVries'
         reponame: 'AlinadeVries.github.io'
