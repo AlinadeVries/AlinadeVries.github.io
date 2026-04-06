@@ -17,3 +17,4 @@ jobs:
         username: 'AlinadeVries'
         reponame: 'AlinadeVries.github.io'
         token: ${{ secrets.GITHUB_TOKEN }}
+        cname: 'adevries.dev'
