@@ -1,5 +1,4 @@
 <script setup>
-import '@/css/fonts.css'
 import { ref } from 'vue'
 
 const openIndex = ref(null)
