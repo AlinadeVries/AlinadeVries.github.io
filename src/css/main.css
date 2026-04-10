@@ -12,6 +12,7 @@ html {
 body {
   height: 100vh;
   overflow-y: auto;
+  margin: 10px;
 }
 
 * {

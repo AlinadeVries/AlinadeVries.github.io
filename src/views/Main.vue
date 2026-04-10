@@ -104,7 +104,8 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   overflow: hidden;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .faq-question {
